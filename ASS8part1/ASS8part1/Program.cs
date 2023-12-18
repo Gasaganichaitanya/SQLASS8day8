@@ -18,7 +18,7 @@ namespace ASS8part1
         {
             try
             {
-                con = new SqlConnection(constr);
+                SqlConnection con = new SqlConnection(constr);
                 cmd = new SqlCommand
                 {
                     Connection = con,
